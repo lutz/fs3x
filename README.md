@@ -37,9 +37,9 @@ Der Sketch auf dem Arduino prüft ob an den analogen Anschlusspins (A0, A2) eine
 
 ## Anschlüsse des Arduinos
 
-<img src="https://de.wikipedia.org/wiki/Klinkenstecker#/media/Datei:3.5mm_jack_plug_3_norm.svg?sanitize=true">
-([Quelle](https://de.wikipedia.org/wiki/Klinkenstecker))
+[Bild Stereo Klinke](https://de.wikipedia.org/wiki/Klinkenstecker)
 
+Buchse -> Arduino
 L -> A0 
 R -> A2
 GND > GNS
