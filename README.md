@@ -31,6 +31,20 @@ Ich habe den Nachbau des Arduino Nanos v3 aus China von Bangood genutzt. Bei Nac
 - Treiber CH340 (04.11.2011 Version: 3.3.2011.11)
 - Arduino IDE (Version 1.6.5)
 
+## Funktionsweise
+
+Der Sketch auf dem Arduino prüft ob an den analogen Anschlusspins (A0, A2) eine bestimmte Spannung anliegt oder nicht. Die Kombination aus Spannung am Anschluss A0 und A2 ergibt dann welcher Schalter gedrückt wurde. __Wichtig!__ Die internen Pull-Up Wiederstände werden durch den Sketch mit aktiviert. Wenn man dies nicht möchte sollte man entsprechende Widerstände in der Schaltung verwenden! 
+
+## Anschlüsse des Arduinos
+
+<img src="https://de.wikipedia.org/wiki/Klinkenstecker#/media/Datei:3.5mm_jack_plug_3_norm.svg?sanitize=true">
+((Quelle)[https://de.wikipedia.org/wiki/Klinkenstecker])
+
+L -> A0 
+R -> A2
+GND > GNS
+
+
 ## Wünsche/Kommentare/Frage
 
 Bitte sämtliche Fragen, Wünsche und Kommentare als Issue posten. Ich werde versuchen diese soweit wie möglich zu beantworten.
