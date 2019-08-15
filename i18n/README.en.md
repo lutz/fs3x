@@ -31,6 +31,19 @@ I used the replica of the Arduino Nanos v3 from China by Bangood. With replicas 
 - driver CH340 (04.11.2011 version: 3.3.2011.11)
 - Arduino IDE (version 1.6.5)
 
+## how it works
+
+The Sketch on the Arduino checks whether a certain voltage is applied to the analog pins (A0, A2) or not. The combination of voltage at terminal A0 and A2 then results in which switch was pressed. __Important!__ The internal pull-up resistors are activated by the sketch. If you don't want this you should use resistors in the circuit! 
+
+## pins of Arduino
+
+[Bild Stereo Klinke](https://de.wikipedia.org/wiki/Klinkenstecker)
+
+_socket -> Arduino_
+- L -> A0 
+- R -> A2
+- GND > GNS
+
 ## Wishes/Comments/Questions
 Please post all questions, wishes and comments as an issue. I will try to answer them as much as possible.
 
