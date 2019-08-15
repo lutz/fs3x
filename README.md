@@ -39,10 +39,10 @@ Der Sketch auf dem Arduino prüft ob an den analogen Anschlusspins (A0, A2) eine
 
 [Bild Stereo Klinke](https://de.wikipedia.org/wiki/Klinkenstecker)
 
-Buchse -> Arduino
-L -> A0 
-R -> A2
-GND > GNS
+_Buchse -> Arduino_
+- L -> A0 
+- R -> A2
+- GND > GNS
 
 
 ## Wünsche/Kommentare/Frage
