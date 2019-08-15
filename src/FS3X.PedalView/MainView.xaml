@@ -1,0 +1,61 @@
+﻿<Window x:Class="FS3X.PedalView.MainView"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        mc:Ignorable="d"
+        Closed="Window_Closed"
+        WindowStyle="ToolWindow"
+         Width="514" ResizeMode="NoResize" WindowStartupLocation="CenterScreen" SizeToContent="Height">
+    <Grid Background="Black">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="56"/>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="Auto"/>
+        </Grid.RowDefinitions>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Label Margin="10,10,10,0" Content="MODE" Grid.Row="0" Grid.Column="0" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+        <Label Margin="10,10,10,0" Content="DOWN" Grid.Row="0" Grid.Column="1" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+        <Label Margin="10,10,10,0" Content="UP" Grid.Row="0" Grid.Column="2" HorizontalAlignment="Center" FontWeight="Bold" Foreground="White"/>
+
+        <Canvas Grid.Row="1" Grid.Column="0" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Ellipse Fill="White" Width="54" Height="54" Canvas.Left="-27" Canvas.Top="0"/>
+            <Ellipse Fill="Black" Width="50" Height="50" Canvas.Left="-25" Canvas.Top="2" x:Name="modeButton"/>
+        </Canvas>
+
+        <Canvas Grid.Row="1" Grid.Column="1" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Ellipse Fill="White" Width="54" Height="54" Canvas.Left="-27" Canvas.Top="0"/>
+            <Ellipse Fill="Black" Width="50" Height="50" Canvas.Left="-25" Canvas.Top="2" x:Name="downButton"/>
+        </Canvas>
+
+        <Canvas Grid.Row="1" Grid.Column="2" HorizontalAlignment="Center" VerticalAlignment="Top">
+            <Ellipse Fill="White" Width="54" Height="54" Canvas.Left="-27" Canvas.Top="0"/>
+            <Ellipse Fill="Black" Width="50" Height="50" Canvas.Left="-25" Canvas.Top="2" x:Name="upButton"/>
+        </Canvas>
+
+        <Path Grid.Column="0" Grid.Row="2" Data="M7.3089905,0L7.3089905,7.6809965 24.689972,7.6809965 24.689972,0 32,10.928996 24.689972,21.858999 24.689972,14.176996 7.3089905,14.176996 7.3089905,21.858999 0,10.928996z" Stretch="Uniform" Fill="#FFFFFFFF" Width="32" Height="32"/>
+
+        <Path Grid.Column="1" Grid.Row="2" Data="M0,0L32,0 16,19.745z" Stretch="Uniform" Fill="#FFFFFFFF" Width="30" Height="30"/>
+
+        <Path Grid.Column="2" Grid.Row="2" Data="M16,0L32,19.745 0,19.745z" Stretch="Uniform" Fill="#FFFFFFFF" Width="30" Height="30"/>
+
+        <Grid Grid.Column="0" Grid.Row="3" Margin="2,5,2,2">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="Auto"/>
+                <ColumnDefinition Width="Auto"/>
+            </Grid.ColumnDefinitions>
+
+            <Border Background="White" BorderBrush="Black" BorderThickness="1,1,1,1" CornerRadius="0,10,0,10" Grid.ColumnSpan="2"/>
+
+            <Label Margin="20,0,0,0" Content="FS3X" Grid.Column="0" FontWeight="Bold" Foreground="Black" FontSize="18" VerticalAlignment="Bottom"/>
+            <Label Margin="-3,0,20,2" Content="FOOTSWITCH" Grid.Column="1" VerticalAlignment="Bottom"  FontWeight="Light" Foreground="Black"/>
+        </Grid>
+        
+    </Grid>
+</Window>

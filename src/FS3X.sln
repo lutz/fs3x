@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.29201.188
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FS3X.Lib", "FS3X.Lib\FS3X.Lib.csproj", "{0E45EB46-1894-4790-9C17-EC13947E6A19}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FS3X.PedalView", "FS3X.PedalView\FS3X.PedalView.csproj", "{9A04E344-B08D-4140-8EB5-FCB9130E9F2F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0E45EB46-1894-4790-9C17-EC13947E6A19}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E45EB46-1894-4790-9C17-EC13947E6A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E45EB46-1894-4790-9C17-EC13947E6A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E45EB46-1894-4790-9C17-EC13947E6A19}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9A04E344-B08D-4140-8EB5-FCB9130E9F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9A04E344-B08D-4140-8EB5-FCB9130E9F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9A04E344-B08D-4140-8EB5-FCB9130E9F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9A04E344-B08D-4140-8EB5-FCB9130E9F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {81422971-8B13-48DC-A59C-9821A902AB91}
+	EndGlobalSection
+EndGlobal
