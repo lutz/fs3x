@@ -31,7 +31,7 @@ Ich habe den Nachbau des Arduino Nanos v3 aus China von Bangood genutzt. Bei Nac
 
 ## Wünsche/Kommentare/Frage
 
-Bitte s#mtliche Fragen, Wünsche und Kommentare als Issue posten. Ich werde versuchen diese soweit wie möglich zu beantworten.
+Bitte sämtliche Fragen, Wünsche und Kommentare als Issue posten. Ich werde versuchen diese soweit wie möglich zu beantworten.
 
 ## Quellen
 
