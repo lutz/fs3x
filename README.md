@@ -42,7 +42,7 @@ Der Sketch auf dem Arduino prüft ob an den analogen Anschlusspins (A0, A2) eine
 _Buchse -> Arduino_
 - L -> A0 
 - R -> A2
-- GND > GNS
+- GND > GND
 
 
 ## Wünsche/Kommentare/Frage
