@@ -16,7 +16,7 @@ The following contents can be found in the [src](https://github.com/lutz/fs3x/tr
 
 - FS3X.Arduino (contains the sketch for the Arduino)
 - FS3X.Lib (contains a small class library for evaluating the information provided by SerialComPort)
-- FS3X.PedalView (includes a small test application)
+- FS3X.Tray (includes a small test application)
 
 ## material
 
