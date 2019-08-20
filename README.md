@@ -1,4 +1,4 @@
-[ENGLISH](https://github.com/lutz/fs3x/blob/master/readme.en.md)
+[ENGLISH](https://github.com/lutz/fs3x/blob/master/i18n/README.en.md)
 
 # fs3x
 
@@ -30,6 +30,20 @@ Im [src](https://github.com/lutz/fs3x/tree/master/src) sind folgende Inhalte zu 
 Ich habe den Nachbau des Arduino Nanos v3 aus China von Bangood genutzt. Bei Nachbauten aus China kann es vorkommen dass der USB/Seriell Wandler Chip nicht von FTDI wie beim Original ist sondern ein günstigerer z.B. der WCH CH340. Um Daten auf den Arduino darüber zu kopieren, benötigt man einen Treiber für diesen Chip. Nach längerer Suche bin ich für Windows 10 auf folgende Kombination gestossen, die dann bei mir ohne Probleme funktioniert hat:
 - Treiber CH340 (04.11.2011 Version: 3.3.2011.11)
 - Arduino IDE (Version 1.6.5)
+
+## Funktionsweise
+
+Der Sketch auf dem Arduino prüft ob an den analogen Anschlusspins (A0, A2) eine bestimmte Spannung anliegt oder nicht. Die Kombination aus Spannung am Anschluss A0 und A2 ergibt dann welcher Schalter gedrückt wurde. __Wichtig!__ Die internen Pull-Up Wiederstände werden durch den Sketch mit aktiviert. Wenn man dies nicht möchte sollte man entsprechende Widerstände in der Schaltung verwenden! 
+
+## Anschlüsse des Arduinos
+
+[Bild Stereo Klinke](https://de.wikipedia.org/wiki/Klinkenstecker)
+
+_Buchse -> Arduino_
+- L -> A0 
+- R -> A2
+- GND > GND
+
 
 ## Wünsche/Kommentare/Frage
 
