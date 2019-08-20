@@ -37,7 +37,7 @@ The Sketch on the Arduino checks whether a certain voltage is applied to the ana
 
 ## pins of Arduino
 
-[Bild Stereo Klinke](https://de.wikipedia.org/wiki/Klinkenstecker)
+[Bild Stereo Klinke](https://de.wikipedia.org/wiki/Klinkenstecker#/media/Datei:3.5mm_jack_plug_3_norm.svg)
 
 _socket -> Arduino_
 - L -> A0 
