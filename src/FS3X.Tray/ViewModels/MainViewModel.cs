@@ -7,6 +7,7 @@ using System.Threading.Tasks;
 using System.Windows.Input;
 using System.IO.Ports;
 using FS3X.Lib;
+using System.Diagnostics;
 
 namespace FS3X.Tray
 {
@@ -89,6 +90,7 @@ namespace FS3X.Tray
 
         void Pedal_PedalButtonChanged(object sender, PedalButtonEventArgs args)
         {
+            Debug.WriteLine($"{args.Button.ToString()} is {args.Status.ToString()}");
             IsPressed = args.Status == PedalButtonStatus.Pressed;
         }
 

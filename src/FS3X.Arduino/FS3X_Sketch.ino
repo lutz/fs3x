@@ -41,5 +41,5 @@ void loop() {
     currentButton = 8;
   }
 
-  delay(1);
+  delay(5);
 }
