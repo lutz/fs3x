@@ -1,4 +1,4 @@
-[GERMAN](https://github.com/lutz/fs3x/blob/master/README.md)
+[Deutsch](https://github.com/lutz/fs3x/blob/master/README.md)
 
 # fs3x
 
@@ -16,7 +16,7 @@ The following contents can be found in the [src](https://github.com/lutz/fs3x/tr
 
 - FS3X.Arduino (contains the sketch for the Arduino)
 - FS3X.Lib (contains a small class library for evaluating the information provided by SerialComPort)
-- FS3X.PedalView (includes a small test application)
+- FS3X.Tray (includes a small test application)
 
 ## material
 
@@ -37,7 +37,7 @@ The Sketch on the Arduino checks whether a certain voltage is applied to the ana
 
 ## pins of Arduino
 
-[Bild Stereo Klinke](https://de.wikipedia.org/wiki/Klinkenstecker)
+[Image: stereo jack plug](https://de.wikipedia.org/wiki/Klinkenstecker#/media/Datei:3.5mm_jack_plug_3_norm.svg)
 
 _socket -> Arduino_
 - L -> A0 
