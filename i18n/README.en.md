@@ -1,4 +1,4 @@
-[GERMAN](https://github.com/lutz/fs3x/blob/master/README.md)
+[Deutsch](https://github.com/lutz/fs3x/blob/master/README.md)
 
 # fs3x
 
