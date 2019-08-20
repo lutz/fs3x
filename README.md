@@ -15,7 +15,7 @@ FS3X hat das Ziel unter Zuhilfenahme eines Arduino Nanos den Fusschalter FS3X vo
 Im [src](https://github.com/lutz/fs3x/tree/master/src) sind folgende Inhalte zu finden:
 - FS3X.Arduino (Beinhaltet den Sketch für den Arduino)
 - FS3X.Lib (Beinhaltet eine kleine Klassenbibliothek zur Auswertung der über SerialComPort gelieferten Informationen) 
-- FS3X.PedalView (Beinhaltet eine kleine Testanwendung)
+- FS3X.Tray (Beinhaltet eine kleine Testanwendung)
 
 ## Material
 
