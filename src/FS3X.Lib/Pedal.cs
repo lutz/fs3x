@@ -7,7 +7,6 @@ namespace FS3X.Lib
         #region Fields
 
         SerialPort _serialPort;
-        string _portName;
 
         #endregion
 
@@ -23,13 +22,6 @@ namespace FS3X.Lib
         }
 
         #endregion
-
-        #region Constructors
-
-        public Pedal(string portName)
-        {
-            _portName = portName;
-        }
 
 
         #region Events
@@ -72,16 +64,18 @@ namespace FS3X.Lib
 
         #region Properties
 
-        public bool IsSwitchedOn => _serialPort != null;
+        public string Port => _serialPort?.PortName;
+
+        public bool IsConnected => _serialPort != null;
 
         #endregion
 
         #region Methods
 
-        public void SwitchOn()
+        public void Connect(string portName)
         {
             if (_serialPort != null) return;
-            _serialPort = new SerialPort(_portName)
+            _serialPort = new SerialPort(portName)
             {
                 BaudRate = 9600
             };
@@ -93,14 +87,14 @@ namespace FS3X.Lib
             }
             catch (System.Exception inner)
             {
-                SwitchOff();
+                Disconnect();
                 throw new PedalException("Open SerialPort throws an exception", inner);
             }
 
 
         }
 
-        public void SwitchOff()
+        public void Disconnect()
         {
             if (_serialPort == null) return;
             _serialPort.DataReceived -= SerialPort_DataReceived;
@@ -108,8 +102,6 @@ namespace FS3X.Lib
             _serialPort.Dispose();
             _serialPort = null;
         }
-
-        #endregion
 
         #endregion
     }

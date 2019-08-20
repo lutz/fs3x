@@ -8,7 +8,7 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace FS3X.PedalView.Properties
+namespace FS3X.Tray.Properties
 {
 
 

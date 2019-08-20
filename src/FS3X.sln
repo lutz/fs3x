@@ -5,7 +5,7 @@ VisualStudioVersion = 16.0.29201.188
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FS3X.Lib", "FS3X.Lib\FS3X.Lib.csproj", "{0E45EB46-1894-4790-9C17-EC13947E6A19}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FS3X.PedalView", "FS3X.PedalView\FS3X.PedalView.csproj", "{9A04E344-B08D-4140-8EB5-FCB9130E9F2F}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FS3X.Tray", "FS3X.Tray\FS3X.Tray.csproj", "{7BFE2F03-2A73-4EB1-A89A-DFEFD5950349}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{0E45EB46-1894-4790-9C17-EC13947E6A19}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0E45EB46-1894-4790-9C17-EC13947E6A19}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0E45EB46-1894-4790-9C17-EC13947E6A19}.Release|Any CPU.Build.0 = Release|Any CPU
-		{9A04E344-B08D-4140-8EB5-FCB9130E9F2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{9A04E344-B08D-4140-8EB5-FCB9130E9F2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{9A04E344-B08D-4140-8EB5-FCB9130E9F2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{9A04E344-B08D-4140-8EB5-FCB9130E9F2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7BFE2F03-2A73-4EB1-A89A-DFEFD5950349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7BFE2F03-2A73-4EB1-A89A-DFEFD5950349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7BFE2F03-2A73-4EB1-A89A-DFEFD5950349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7BFE2F03-2A73-4EB1-A89A-DFEFD5950349}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
