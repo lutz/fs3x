@@ -18,7 +18,7 @@ namespace FS3X.Lib
 
         protected void OnPedalButtonChanged(PedalButton button, PedalButtonStatus status)
         {
-            PedalButtonChanged?.Invoke(this, new PedalButtonEventArgs(button, status));
+            PedalButtonChanged?.ThreadAwareRaise(this, new PedalButtonEventArgs(button, status));
         }
 
         #endregion

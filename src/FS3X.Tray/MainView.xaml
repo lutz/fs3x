@@ -6,10 +6,11 @@
         xmlns:local="clr-namespace:FS3X.Tray"
         xmlns:tb="http://www.hardcodet.net/taskbar"
         mc:Ignorable="d"
-        Height="0" Width="0"
+        SizeToContent="WidthAndHeight"
         Closing="Window_Closing"
         WindowStartupLocation="CenterScreen"
         ShowInTaskbar="False"
+        Title="Log"
         WindowStyle="ToolWindow"
         x:Name="window">
     <Window.Resources>
@@ -21,6 +22,9 @@
             PressedStatusIconPath="pack://application:,,,/Resources/pressed.ico"/>
     </Window.Resources>
     <Grid>
+
+        <TextBox HorizontalAlignment="Left" VerticalAlignment="Top" IsReadOnly="True" IsReadOnlyCaretVisible="False" Height="150" Width="400" Margin="10" />
+        <Button Content="Schließen" HorizontalAlignment="Right" VerticalAlignment="Top" Margin="0,170,10,10" Padding="5,2.5,5,2.5" Click="Hide_Click"/>
 
         <tb:TaskbarIcon Visibility="Visible" ToolTipText="FS3X Pedal">
             <tb:TaskbarIcon.IconSource>
@@ -41,6 +45,8 @@
                         </Style>
                     </ContextMenu.Resources>
                     <MenuItem Header="Ports" ItemsSource="{Binding PortModels}" ItemContainerStyle="{StaticResource ThemeMenuItemStyle}"  />
+                    <Separator/>
+                    <MenuItem Header="Log anzeigen..." Click="About_Click"/>
                     <Separator/>
                     <MenuItem Header="Beenden" Click="Close_Click"/>
                 </ContextMenu>

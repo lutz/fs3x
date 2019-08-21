@@ -11,7 +11,7 @@ using System.Diagnostics;
 
 namespace FS3X.Tray
 {
-    public class MainViewModel : BaseViewModel
+    public class MainViewModel : BaseViewModel, IDisposable
     {
         #region Fields
 
@@ -93,6 +93,29 @@ namespace FS3X.Tray
             Debug.WriteLine($"{args.Button.ToString()} is {args.Status.ToString()}");
             IsPressed = args.Status == PedalButtonStatus.Pressed;
         }
+
+        #region IDisposable Support
+
+        private bool disposedValue = false;
+
+        protected virtual void Dispose(bool disposing)
+        {
+            if (!disposedValue)
+            {
+                if (disposing)
+                {
+                    _pedal?.Disconnect();
+                }
+
+                disposedValue = true;
+            }
+        }
+
+        public void Dispose()
+        {
+            Dispose(true);
+        }
+        #endregion
 
         #endregion
     }

@@ -8,6 +8,7 @@ namespace FS3X.Tray
         {
             var mainView = new MainView();
             mainView.DataContext = new MainViewModel(new WindowDialogService(mainView));
+            mainView.Closed += (s, args) => ((MainViewModel)mainView.DataContext).Dispose();
             mainView.Hide();
         }
     }

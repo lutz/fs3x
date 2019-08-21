@@ -5,16 +5,32 @@ namespace FS3X.Tray
 
     public partial class MainView : Window
     {
+        #region Fields
+
         bool _supressClosing = true;
+
+        #endregion
+
+        #region Constructors
 
         public MainView()
         {
             InitializeComponent();
         }
 
+        #endregion
+
+        #region Events
+
         private void Close_Click(object sender, RoutedEventArgs e)
         {
             _supressClosing = false;
+            this.Close();
+        }
+
+
+        private void Hide_Click(object sender, RoutedEventArgs e)
+        {
             this.Close();
         }
 
@@ -31,5 +47,7 @@ namespace FS3X.Tray
                 this.Hide();
             }
         }
+
+        #endregion
     }
 }
