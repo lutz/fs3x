@@ -4,7 +4,7 @@
 
 ## Disclaimer
 
->Dies ist ein Privatprojekt und der Umgang mit Strom kann lebensgefährlich sein. Daher sollte man im Umgang damit immer Vorsciht walten lassen und wissen was man tut. Daher bestehen keine Supportansprüche durch meine Person oder sonstige Haftungsansprüche bei Problemen oder Datenverlust. Jegliche Nutzung erfolgt auf eigene Gefahr hin. Alle Rechte am Namen **Digitech** liegen bei **Harman (A SAMSUNG Company)**.
+>Dies ist ein Privatprojekt und der Umgang mit Strom kann lebensgefährlich sein. Daher sollte man im Umgang damit immer Vorsicht walten lassen und wissen was man tut. Daher bestehen keine Supportansprüche durch meine Person oder sonstige Haftungsansprüche bei Problemen oder Datenverlust. Jegliche Nutzung erfolgt auf eigene Gefahr hin. Alle Rechte am Namen **Digitech** liegen bei **Harman (A SAMSUNG Company)**.
 
 ## Projektziel
 
