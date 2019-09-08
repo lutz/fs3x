@@ -1,4 +1,4 @@
-[![](ttps://github.com/lutz/fs3x/blob/master/docs/images/german.png)](https://github.com/lutz/fs3x/blob/master/README.md)
+[![](https://github.com/lutz/fs3x/blob/master/docs/images/german.png)](https://github.com/lutz/fs3x/blob/master/README.md)
 
 # fs3x
 
