@@ -42,7 +42,7 @@ The Sketch on the Arduino checks whether a certain voltage is applied to the ana
 _socket -> Arduino_
 - L -> A0 
 - R -> A2
-- GND > GND
+- GND -> GND
 
 ## Wishes/Comments/Questions
 Please post all questions, wishes and comments as an issue. I will try to answer them as much as possible.
